@@ -13,68 +13,38 @@ class BusniessCardApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color(0xFF2B475E),
+        backgroundColor: Color(0xFFBDBEE6),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
-              radius: 112,
-              backgroundColor: Colors.white,
+              radius: 140,
+              backgroundColor: Color(0xFFBDBEE6),
               child: CircleAvatar(
-                radius: 110,
-                backgroundImage: AssetImage('images/tharwat.png'),
-              ),
-            ),
-            const Text(
-              'Heba Tarek',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 35,
-                fontFamily: 'Pacifico',
+                radius: 200,
+                backgroundImage: AssetImage(
+                    'images/Purple Turquoise Colorful Happy World Computer Literacy Day Instagram Post (1).png'),
               ),
             ),
             const Text(
               'FLUTTER DEVELOPER',
               style: TextStyle(
-                fontSize: 16,
-                color: Color(0xFF6C8090),
-                fontWeight: FontWeight.bold,
-              ),
+                  fontSize: 20,
+                  color: Color(0xFF6C8090),
+                  fontWeight: FontWeight.bold,
+                  fontFamily: "Pacifico"),
             ),
             const Divider(
               color: Color(0xFF6C8090),
               thickness: 1,
               indent: 60,
               endIndent: 60,
-              height: 10,
-            ),
-            Card(
-              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(8),
-              ),
-              color: Colors.white,
-              child: const ListTile(
-                leading: Icon(
-                  Icons.mail,
-                  size: 32,
-                  color: Color(0xFF2B475E),
-                ),
-                title: Padding(
-                  padding: EdgeInsets.only(left: 15),
-                  child: Text(
-                    '(+20) 109 682 9680',
-                    style: TextStyle(
-                      fontSize: 24,
-                    ),
-                  ),
-                ),
-              ),
+              height: 20,
             ),
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
+                borderRadius: BorderRadius.circular(15),
                 color: Colors.white,
               ),
               height: 65,
@@ -104,7 +74,7 @@ class BusniessCardApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
+                  borderRadius: BorderRadius.circular(15),
                   color: Colors.white,
                 ),
                 height: 65,

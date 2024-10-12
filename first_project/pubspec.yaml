@@ -61,7 +61,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/tharwat.png
- 
+    - images/Purple Turquoise Colorful Happy World Computer Literacy Day Instagram Post (1).png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -75,9 +75,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-     - family: Pacifico
-       fonts:
-         - asset: Fonts/Pacifico-Regular.ttf
+    - family: Pacifico
+      fonts:
+       - asset: Fonts/Pacifico-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

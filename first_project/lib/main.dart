@@ -44,7 +44,7 @@ class BusniessCardApp extends StatelessWidget {
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(14),
                 color: Colors.white,
               ),
               height: 65,
@@ -74,7 +74,7 @@ class BusniessCardApp extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(15),
+                  borderRadius: BorderRadius.circular(14),
                   color: Colors.white,
                 ),
                 height: 65,
